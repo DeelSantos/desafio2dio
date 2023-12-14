@@ -36,6 +36,8 @@ body {
     
 }
 .header {
+    background-image: url(img/avengers.jpg);
+    
     
     min-height: 150px;
 }
