@@ -38,15 +38,48 @@ body {
 .header {
     background-image: url(img/avengers.jpg);
     
-    
-    min-height: 150px;
+    min-height: 100px;
+
 }
 .content {
-    background-color: white;
+    background-color: #060047;
+   
+    
     min-height: 300px;
     padding: 20px;
 }
-.footer {
-    background-color: rgb(99, 56, 240);
-    min-height: 100px;
+
+.titulo-principal {
+    text-align: center;
+    color: #FF5F9E;
 }
+.text-principal {
+    color: #E90064;
+    text-align: center;
+}
+.footer {
+    background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	margin-top: 50px;
+    
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+
