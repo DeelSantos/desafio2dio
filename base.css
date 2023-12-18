@@ -3,9 +3,10 @@ html, body {
     padding: 0;
 }
 body {
-    background-color: #030101;
+    
     display: flex;
     justify-content: center;
+    
 }
 
 .wrapper {
@@ -27,7 +28,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    
+    border: solid 1px black;
     
 }
 
@@ -37,10 +38,15 @@ body {
 }
 .header {
     background-image: url(img/avengers.jpg);
+    opacity: 50%;
+    min-height: 170px;
     
-    min-height: 100px;
-
 }
+
+h1 {
+    text-align: center;
+}
+
 .content {
     background-color: #060047;
    
@@ -51,7 +57,7 @@ body {
 
 .titulo-principal {
     text-align: center;
-    color: #FF5F9E;
+    color: #050103;
 }
 .text-principal {
     color: #E90064;
@@ -62,7 +68,7 @@ body {
 	color: #fff;
 	padding: 20px;
 	text-align: center;
-	margin-top: 50px;
+	
     
 }
 
