@@ -38,14 +38,11 @@ body {
 }
 .header {
     background-image: url(img/avengers.jpg);
-    opacity: 50%;
+    
     min-height: 170px;
     
 }
 
-h1 {
-    text-align: center;
-}
 
 .content {
     background-color: #060047;
