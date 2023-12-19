@@ -23,7 +23,7 @@ body {
 }
 .menu {
     width: 10%;
-    background-color: aliceblue;
+    background-color: #FFECD6;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -37,36 +37,35 @@ body {
     
 }
 .header {
-    background-image: url(img/avengers.jpg);
-    
-    min-height: 170px;
+    max-height: 170px;
+}
+
+.imagem-principal {
+    width: 1206px;
+    height: 300px;
     
 }
 
 
 .content {
-    background-color: #060047;
-   
-    
+    background-color: #0F2167;
     min-height: 300px;
     padding: 20px;
     }
 
 .titulo-principal {
     text-align: center;
-    color: #050103;
+    color: #3559E0;
 }
 .text-principal {
-    color: #E90064;
+    color: #3559E0;
     text-align: center;
 }
 .footer {
-    background-color: #333;
-	color: #fff;
+    background-color: #4CB9E7;
+	color: #FFECD6;
 	padding: 20px;
 	text-align: center;
-	
-    
 }
 
 ul {
@@ -83,6 +82,12 @@ li {
 a {
 	color: black;
 	text-decoration: none;
+}
+
+a:hover{
+    color: #4CB9E7;
+    background-color: #0F2167;
+    padding: 10px;
 }
 
 
