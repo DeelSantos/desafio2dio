@@ -7,6 +7,7 @@ body {
     display: flex;
     justify-content: center;
     
+    
 }
 
 .wrapper {
@@ -23,12 +24,13 @@ body {
 }
 .menu {
     width: 10%;
-    background-color: #FFECD6;
+    background-color: #222831;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items:center;
     justify-content: space-around;
     border: solid 1px black;
+    
     
 }
 
@@ -48,22 +50,22 @@ body {
 
 
 .content {
-    background-color: #0F2167;
+    background-color: #EEEEEE;
     min-height: 300px;
     padding: 20px;
     }
 
 .titulo-principal {
     text-align: center;
-    color: #3559E0;
+    color: #00ADB5;
 }
 .text-principal {
-    color: #3559E0;
+    color: #00ADB5;
     text-align: center;
 }
 .footer {
-    background-color: #4CB9E7;
-	color: #FFECD6;
+    background-color: #222831;
+	color: #EEEEEE;
 	padding: 20px;
 	text-align: center;
 }
@@ -80,7 +82,7 @@ li {
 }
 
 a {
-	color: black;
+	color: #EEEEEE;
 	text-decoration: none;
 }
 
@@ -90,4 +92,18 @@ a:hover{
     padding: 10px;
 }
 
+table,th, tr, td {
+    border: solid 1px black;
+}
 
+td, th {
+    text-align: center;
+    background-color: #E3FDFD;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
